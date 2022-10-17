@@ -13,8 +13,12 @@ def main():
     if not root_dir.is_dir():
         print("The specified root directory doesn't exist")
         sys.exit()
+    depth = int(args.depth)
+    if depth < 1:
+        print("Depth should be greater than 0")
+        sys.exit()
     tree = DirectoryTree(
-        root_dir, dir_only=args.dir_only, output_file=args.output_file
+        root_dir, dir_only=args.dir_only, skip_hidden=args.skip_hidden, depth=args.depth, output_file=args.output_file
     )
     tree.generate()
 

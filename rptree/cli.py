@@ -28,6 +28,18 @@ def parse_cmd_line_arguments():
         help="generate a directory-only tree",
     )
     parser.add_argument(
+        "-D",
+        "--depth",
+        default="1000",
+        help="specifies the depth upto which the tree is generated",
+    )
+    parser.add_argument(
+        "-s",
+        "--skip-hidden",
+        action="store_true",
+        help="skip hidden files and folders",
+    )
+    parser.add_argument(
         "-o",
         "--output-file",
         metavar="OUTPUT_FILE",

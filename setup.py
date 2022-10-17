@@ -17,8 +17,8 @@ setup(
     url="https://github.com/realpython/rptree",
     author="Real Python",
     author_email="info@realpython.com",
-    maintainer="Leodanis Pozo Ramos",
-    maintainer_email="leodanis@realpython.com",
+    maintainer="Ian Auckes",
+    maintainer_email="ian.auckes@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

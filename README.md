@@ -48,15 +48,18 @@ RP Tree also provides the following options:
 - `-v`, `--version` shows the application version and exits
 - `-h`, `--help` show a usage message
 - `-d`, `--dir-only` generates a directory-only tree diagram
+- `-D`, `--depth` specifies the depth upto which the tree is generated
+- `-s`, `--skip-hidden` skip hidden files and folders
 - `-o`, `--output-file` generates a full directory tree diagram and save it to a file in markdown format
 
 ## Release History
-
+- 0.1.2
+  - Compact directory-only output, skip-hidden and depth arguments
 - 0.1.1
   - Display the entries in alphabetical order
 - 0.1.0
   - A work in progress
 
 ## About the Author
-
-Leodanis Pozo Ramos - Email: leodanis@realpython.com
+(Editor) Ian Auckes - Email: ian.auckes@gmail.com
+(Original coder) Leodanis Pozo Ramos - Email: leodanis@realpython.com
