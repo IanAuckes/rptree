@@ -60,6 +60,6 @@ RP Tree also provides the following options:
 - 0.1.0
   - A work in progress
 
-## About the Author
-(Editor) Ian Auckes - Email: ian.auckes@gmail.com
+## About the Authors
+(Editor - v0.1.2) Ian Auckes - Email: ian.auckes@gmail.com<br>
 (Original coder) Leodanis Pozo Ramos - Email: leodanis@realpython.com
